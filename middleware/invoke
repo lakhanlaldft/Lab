@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#
+# jupyter
+#
+/usr/bin/invoke_app "$@" -t intromllab \
+                         -C "start_jupyter -t -T @tool bin/intromllab.ipynb" \
+                         -u anaconda-6
